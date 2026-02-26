@@ -13,3 +13,20 @@ body {
   margin: 0 auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+p {
+  font-weight: bold;
+}
+li {
+  list-style: none;
+}
+.agradable {
+  color: #55b81c;
+}
+.frio {
+  color: rgb(36, 102, 202);
+}
+
+.calor {
+  color: rgb(240, 93, 7);
+}
