@@ -11,8 +11,7 @@ function HistoryList({ history, loading }) {
           <ul>
             {history.map((h) => (
               <li key={h.id + h.date}>
-                <p>Hora: {h.date} </p>
-                <p>Temperatura: {h.temp}</p>
+                <p>Hora: {h.date} ➞ Temperatura: {h.temp}</p>
               </li>
             ))}
           </ul>

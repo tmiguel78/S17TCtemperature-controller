@@ -26,7 +26,7 @@ export default function App() {
         {
           id: Math.random() + 1,
           date: hour,
-          temp: temp,
+          temp: temp +1,
         },
       ]);
     } else alert(" la temperatura debe estar entre 0 y 40");
@@ -47,7 +47,7 @@ export default function App() {
         {
           id: Math.random() + 1,
           date: hour,
-          temp: temp,
+          temp: temp -1,
         },
       ]);
     } else alert(" la temperatura debe estar entre 0 y 40");
